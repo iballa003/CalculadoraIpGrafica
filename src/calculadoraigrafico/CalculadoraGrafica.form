@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="HostsNetLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="HostNetCountLabel" min="-2" pref="116" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="HostNetTypeLabel" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Component id="AddressIpLabel" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="IpField" alignment="0" pref="135" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="SlashLabel" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="AddressLabel" min="-2" pref="54" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="AddressLabelDecimal" min="-2" pref="54" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="CalcularButton" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Component id="HostMaxLabel" min="-2" pref="54" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="HostMaxLabelDecimal" min="-2" pref="116" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="HostMinLabel" min="-2" pref="54" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="HostMinLabelDecimal" min="-2" pref="116" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="NetworkLabel" min="-2" pref="54" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="NetworkLabelDecimal" min="-2" pref="116" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="NetmaskLabel" min="-2" pref="54" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="NetMaskLabelDecimal" min="-2" pref="116" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="NetmaskLabelBinary" max="32767" attributes="0"/>
+                                  <Component id="AddressLabelBinary" max="32767" attributes="0"/>
+                                  <Group type="102" attributes="0">
+                                      <Component id="MaskField" min="-2" pref="135" max="-2" attributes="0"/>
+                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Component id="NetMaskLabel" pref="259" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="HostMinLabelBinary" max="32767" attributes="0"/>
+                                  <Component id="NetworkLabelBinary" max="32767" attributes="0"/>
+                                  <Component id="HostMaxLabelBinary" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="BroadcastLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="BroadcastLabelDecimal" min="-2" pref="116" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="BroadcastLabelBinary" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="AddressIpLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="NetMaskLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="IpField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="MaskField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="SlashLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="CalcularButton" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="AddressLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="AddressLabelDecimal" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="AddressLabelBinary" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="NetmaskLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="NetMaskLabelDecimal" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="NetmaskLabelBinary" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="NetworkLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="NetworkLabelDecimal" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="NetworkLabelBinary" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="HostMinLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="HostMinLabelDecimal" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="HostMinLabelBinary" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="HostMaxLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="HostMaxLabelDecimal" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="HostMaxLabelBinary" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="BroadcastLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="BroadcastLabelDecimal" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="BroadcastLabelBinary" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="HostsNetLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="HostNetCountLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="HostNetTypeLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="36" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JTextField" name="IpField">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="192.16.0.1"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="IpFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="MaskField">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="24"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="CalcularButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Calcular"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="CalcularButtonMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="AddressIpLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Address Ip"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="NetMaskLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Netmask"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="SlashLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="/"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="AddressLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Address:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="NetmaskLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Netmask:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="NetworkLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Network:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="HostMinLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="HostMin:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="HostMaxLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="HostMax:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="BroadcastLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Broadcast:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="HostsNetLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Hosts/Net:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="AddressLabelDecimal">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=" "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="AddressLabelBinary">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=" "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="NetMaskLabelDecimal">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=" "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="NetmaskLabelBinary">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=" "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="NetworkLabelDecimal">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=" "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="NetworkLabelBinary">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=" "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="HostMinLabelDecimal">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=" "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="HostMinLabelBinary">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=" "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="HostMaxLabelDecimal">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=" "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="HostMaxLabelBinary">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=" "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="BroadcastLabelDecimal">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=" "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="BroadcastLabelBinary">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=" "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="HostNetCountLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=" "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="HostNetTypeLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=" "/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
